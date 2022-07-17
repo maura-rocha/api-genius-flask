@@ -4,16 +4,13 @@ Essa API tem como objetivo consume a API do Geniu para retornar as 10 músicas m
 
 ## Requisitos:
 Python 3.10
-Conta no Genius API
-Redis Server 
-DynamoDB 
-Conta no Genius API
+Conta no Genius API, Redis Server , DynamoDB  e Conta no Genius API
 
 Instale, crie e ative a virtualenv em sua máquina e instale as bibliotecas.
 
 Para fazer a instalação use o comando: pip install -r requirements.txt
 
-Existe um arquivo chamado exemple.env. Edite esse arquivo com suas credenciais AWS e Genius e renomei para apenas .env. Esse arquivo é o responsavel por deixar suas chaves de acesso seguras!
+Existe um arquivo chamado exemple.env. Edite esse arquivo com suas credenciais AWS e Genius e renomei para apenas .env. 
 
 Para rodar a aplicação, use python app.py
 
